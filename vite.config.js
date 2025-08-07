@@ -5,6 +5,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/north-resilience-ae2e2c0c/',
   server: {
     allowedHosts: true
   },
